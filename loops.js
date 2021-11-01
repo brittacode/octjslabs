@@ -54,7 +54,7 @@ const names = ["Lucky", "Pepper", "Feather", "Poke"];
 for (let i = 0; i < names.length; i++) {
   console.log(names.length);
 }
-
+//loops exercise 1
 for (let i = 10; i >= 1; i--) {
   console.log(i);
 }
@@ -80,6 +80,7 @@ for (let number of numbers) {
   console.log(number);
 }
 
+// loops extended ch.
 let word = "Lock";
 
 if (outerWidth.length < 10) {

@@ -1,3 +1,32 @@
+// ex. 1
+const actualTemp = 82;
+const desiredTemp = 73;
+{
+  if (actualTemp === desiredTemp) {
+    console.log("Stand by");
+  } else if (actualTemp < desiredTemp) {
+    console.log("Run Heat");
+  } else if (actualTemp > desiredTemp) {
+    console.log("Run A/C");
+  }
+}
+
+const prompt = require("prompt-sync")();
+
+const email = prompt("What is your email? ");
+const password = prompt("What is your password? ");
+
+const adminEmail = "mfanto@gmail.com";
+const adminPassword = "secret";
+
+if (email === adminEmail && password === adminPassword) {
+  console.log("Welcome to the system");
+} else {
+  console.log("Denied");
+}
+
+//possible solution ex. 2
+
 const prompt = require("prompt-sync")();
 const name1 = prompt("What is name number one?: ");
 const name2 = prompt("What is name number two?: ");
